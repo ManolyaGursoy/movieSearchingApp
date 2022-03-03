@@ -9,10 +9,8 @@
 
     public function search() {
       $curl = curl_init();
-      curl_setopt_array($curl, array(
-        /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BURASI  KONTROL EDİLECEK */
-        CURLOPT_URL => 'http://www.omdbapi.com/?apikey='  /*  !!!!!!!THIS IS YOUR API KEY!!!!!!!  */     '&s='. $this->searchtext,
-                /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BURASI  KONTROL EDİLECEK */
+      curl_setopt_array($curl, array( 
+        CURLOPT_URL => 'http://www.omdbapi.com/?apikey='  /*  !!!!!!!THIS IS YOUR API KEY!!!!!!!  */     '&s='. $this->searchtext,      
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
