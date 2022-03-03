@@ -1,6 +1,6 @@
 # movieSearchingApp
 
-![](filmRoll.jpg)
+![](how-it-looks.png)
 
 This is a Restful Api Integration project.
 The purpose of this app is basically to search for movies, see a list of results of the related search, and add some, if you'd like, to your favorites table.
