@@ -2,6 +2,9 @@
 
 ![](how-it-looks.png)
 
+
+![](how-it-looks-2.png)
+
 This is a Restful Api Integration project.
 The purpose of this app is basically to search for movies, see a list of results of the related search, and add some, if you'd like, to your favorites table.
 You are going to execute this app on your local server environment - MAMP. Install it if it is not available on your computer.
